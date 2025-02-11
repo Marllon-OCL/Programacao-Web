@@ -1,4 +1,3 @@
- Aulas de HTML5 E CSS3
 # ANOTAÇÕES:
 1 - HTML pode ser feito no bloco de notas
 2 - todo o arquivo HTML tem que ter a extensão .html
