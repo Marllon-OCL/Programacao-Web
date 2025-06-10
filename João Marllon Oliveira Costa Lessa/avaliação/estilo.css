@@ -1,0 +1,22 @@
+/*RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-imagem {
+    display: flex;
+    align-items: center;
+}
+
+#imagem {
+    height: 500px;
+    height: 200px;
+}

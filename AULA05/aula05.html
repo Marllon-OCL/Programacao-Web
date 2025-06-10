@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <form method="get" action="">
+        <label for="n">Nome</label>
+        <input type="text" name="n" id="n" placeholder="Digite seu nome completo" required>
+        <br>
+        <label for="s">Senha</label>
+        <input type="password" name="s" id="s" placeholder="Digite sua senha" required>
+        <br>
+
+        <h3>1° Qual o curso?</h3>
+        <input type="radio" name="curso" id="adm" value="Adiministracao"> Adiministração
+        <input type="radio" name="curso" id="des" value="Desenvolvimento" checked> Desenvolvimento
+        <input type="radio" name="curso" id="enf" value="Enfermagem"> Enfermagem
+
+        <h3>Quais diciplinas você estuda?</h3>
+        <input type="checkbox" name="disciplinas" id="html" value="html">HTML
+        <input type="checkbox" name="disciplinas" id="gs1">GS 1
+        <input type="checkbox" name="disciplinas" id="bd">Banco de Dados
+        <br><br>
+
+        <label for="">Nível de acesso</label>
+        <br>
+        <select name="nível_acesso" id="">
+            <option value="" selected>Selecione</option>
+            <option value="1">Diretor</option>
+            <option value="2">Professor</option>
+            <option value="3">Estudante</option>
+        </select>
+        <br><br>
+        
+        <textarea name="mensagem" id="" rows="10" cols="100" placeholder="Conteúdo da Mensagem"></textarea>
+        <br><br>
+
+        Anexe seu currículo <input type="file" name="" id="">
+        <br><br>
+
+        <label for="">CANTORA PREFERIDA?</label>
+        <input type="text" name="" id="">
+        <br><br>
+
+        <input type="reset" value="Limpar campos">
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>
